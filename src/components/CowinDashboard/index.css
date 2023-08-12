@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.co-win-dashboard-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #161625;
+  background-size: cover;
+  min-height: 100vh;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding: 30px;
+}
+.plus-cowin-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.plus-icon {
+  color: #ffffff;
+  height: 25px;
+  width: 25px;
+}
+.co-win-css {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #2cc6c6;
+  padding-left: 3px;
+}
+.co-win-heading {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.vaccination-coverage {
+  margin-bottom: 30px;
+}
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-img {
+  width: 40%;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
