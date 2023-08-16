@@ -38,10 +38,10 @@ const VaccinationCoverage = props => {
             }}
           />
           <YAxis
-            tickFormatter={vaccinationCoverageList}
+            tickFormatter={DataFormatter}
             tick={{
               stroke: 'gray',
-              strokeWidth: 0,
+              strokeWidth: 10,
             }}
           />
           <Legend
